@@ -3,17 +3,17 @@ import { editorLocalization } from "../editorLocalization";
 var portugueseTranslation = {
   //survey templates
   survey: {
-    dropQuestion: "Por favor arraste uma pergunta aqui.",
+    dropQuestion: "Arraste uma pergunta aqui.",
     copy: "Copiar",
-    addToToolbox: "Adicionar à toolbox",
-    deletePanel: "Remover Painel",
-    deleteQuestion: "Remover Pergunta"
+    addToToolbox: "Adicionar à caixa de ferramentas",
+    deletePanel: "Deletar painel",
+    deleteQuestion: "Deletar pergunta"
   },
   //questionTypes
   qt: {
-    checkbox: "Checkbox",
+    checkbox: "Checkbox (múltiplas opções)",
     comment: "Comentário",
-    dropdown: "Dropdown",
+    dropdown: "Dropdown (lista suspensa)",
     file: "Arquivo",
     html: "Html",
     matrix: "Matriz (opção única)",
@@ -21,54 +21,54 @@ var portugueseTranslation = {
     matrixdynamic: "Matriz (linhas dinâmicas)",
     multipletext: "Texto múltiplo",
     panel: "Painel",
-    radiogroup: "Radiogroup",
-    rating: "Rating",
-    text: "Texto único"
+    radiogroup: "Radiogroup (única opção)",
+    rating: "Avaliação",
+    text: "Texto"
   },
   //Strings in Editor
   ed: {
-    addNewPage: "Adicionar Nova Página",
-    newPageName: "página",
-    newQuestionName: "pergunta",
-    newPanelName: "painel",
+    addNewPage: "Adicionar nova página",
+    newPageName: "Nome da página",
+    newQuestionName: "Nome da pergunta",
+    newPanelName: "Nome do painel",
     testSurvey: "Testar pesquisa",
     testSurveyAgain: "Testar pesquisa novamente",
-    testSurveyWidth: "Tamanho do pesquisa: ",
-    embedSurvey: "Incorporar Pesquisa",
-    saveSurvey: "Salvar Pesquisa",
-    designer: "Designer de Pesquisa",
-    jsonEditor: "Editor de JSON",
+    testSurveyWidth: "Tamanho da pesquisa: ",
+    embedSurvey: "Incorporar Pesquisa (em uma página)",
+    saveSurvey: "Salvar pesquisa",
+    designer: "Designer da Pesquisa",
+    jsonEditor: "Editor JSON",
     undo: "Desfazer",
     redo: "Refazer",
     options: "Opções",
     generateValidJSON: "Gerar JSON válido",
-    generateReadableJSON: "Gerar JSON legível",
-    toolbox: "Toolbox",
+    generateReadableJSON: "Gerar arquivo de leitura JSON",
+    toolbox: "Caixa de ferramentas",
     delSelObject: "Apagar objeto selecionado",
-    correctJSON: "Por favor corrija o JSON.",
+    correctJSON: "Por favor, corrija o JSON.",
     surveyResults: "Resultado da pesquisa: "
   },
   //Property names in table headers
   pel: {
-    isRequired: "Obrigatório?"
+    isRequired: "É obrigatório?"
   },
   //Property Editors
   pe: {
     apply: "Aplicar",
     ok: "OK",
     cancel: "Cancelar",
-    reset: "Limpar",
+    reset: "Resetar",
     close: "Fechar",
     delete: "Apagar",
-    addNew: "Adicionar Novo",
-    removeAll: "Remover Todos",
+    addNew: "Adicionar novo",
+    removeAll: "Remover todos",
     edit: "Editar",
     empty: "<vazio>",
-    fastEntry: "Entrada Rápida",
-    formEntry: "Entrada com formulário",
+    fastEntry: "Entrada rápida",
+    formEntry: "Entrada do formulário",
     testService: "Testar o serviço",
     expressionHelp:
-      "Por favor informe uma expressão boleana. Ela deve retornar verdadeiro para manter a pergunta/página visível. Por exemplo: {´pergunta1} = 'valor1' or ({pergunta2} = 3 and {pergunta3} < 5)",
+      "Por favor informe uma expressão booleana. Ela deve retornar verdadeiro para manter a pergunta/página visível. Por exemplo: {´pergunta1} = 'valor1' or ({pergunta2} = 3 and {pergunta3} < 5)",
 
     propertyIsEmpty: "Por favor informe um valor na propriedade",
     value: "Valor",
@@ -79,7 +79,7 @@ var portugueseTranslation = {
     hasOther: "Tem outro item",
     name: "Nome",
     title: "Título",
-    cellType: "Tipo de célula",
+    cellType: "Tipo da célula",
     colCount: "Contagem de células",
     choicesOrder: "Selecione a ordem das alternativas",
     visible: "É visível?",
@@ -98,38 +98,38 @@ var portugueseTranslation = {
     minRateDescription: "Descrição de qualificação mínima",
     maxRateDescription: "Descrição de qualificação máxima",
     inputType: "Tipo de entrada",
-    optionsCaption: "Título de opção",
+    optionsCaption: "Opções de título",
 
     qEditorTitle: "Editar pergunta: {0}",
     tabs: {
       general: "Geral",
-      fileOptions: "Opções",
+      fileOptions: "Opções do arquivo",
       html: "Editor Html",
       columns: "Colunas",
       rows: "Linhas",
-      choices: "Opções",
+      choices: "Escolhas",
       visibleIf: "Visível se",
       rateValues: "Valores de qualificação",
-      choicesByUrl: "Opções com origem na Web",
-      matrixChoices: "Opções padrão",
-      multipleTextItems: "Entradas de texto",
+      choicesByUrl: "Escolhas pela URL da Web",
+      matrixChoices: "Escolhas da Matrix",
+      multipleTextItems: "Múltimos itens de texto",
       validators: "Validadores"
     },
 
     editProperty: "Editar propriedade '{0}'",
     items: "[ Items: {0} ]",
 
-    enterNewValue: "Por favor, informe o valor.",
+    enterNewValue: "Inserir novo valor.",
     noquestions: "Não há nenhuma pergunta na pesquisa.",
     createtrigger: "Por favor, crie um gatilho",
-    triggerOn: "Ligado ",
+    triggerOn: "Gatilho Ativado ",
     triggerMakePagesVisible: "Tornar páginas visíveis:",
     triggerMakeQuestionsVisible: "Tornar perguntas visíves:",
     triggerCompleteText: "Completar a pesquisa se obtiver êxito.",
     triggerNotSet: "O gatilho não está definido",
-    triggerRunIf: "Executar se",
-    triggerSetToName: "Mudar o valor de: ",
-    triggerSetValue: "para: ",
+    triggerRunIf: "Executar gatilho se",
+    triggerSetToName: "Mudar o nome do gatilho para: ",
+    triggerSetValue: "Configurar valor do Gatilho para: ",
     triggerIsVariable: "Não colocar a variável no resultado da pesquisa."
   },
   //Operators
@@ -153,13 +153,13 @@ var portugueseTranslation = {
     react: "Usar versão React",
     vue: "Usar versão Vue",
     bootstrap: "Para framework bootstrap",
-    standard: "Sem bootstrap",
+    standard: "Versão padrão",
     showOnPage: "Mostrar pesquisa em uma página",
     showInWindow: "Mostrar pesquisa em uma janela",
     loadFromServer: "Carregar JSON da pesquisa de um servidor",
-    titleScript: "Scripts e estilos",
-    titleHtml: "HTML",
-    titleJavaScript: "JavaScript"
+    titleScript: "Título do script",
+    titleHtml: "Título HTML",
+    titleJavaScript: "Título JavaScript"
   },
   //Properties
   p: {
